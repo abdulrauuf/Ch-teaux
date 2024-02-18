@@ -34,10 +34,10 @@ let swiperHome = new Swiper('.home__swiper', {
     grabCursor: true,
     slidesPerView: 'auto',
     
-    // autoplay: {
-    //     delay: 3500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
 
     navigation: {
         nextEl: '.swiper-button-next',
