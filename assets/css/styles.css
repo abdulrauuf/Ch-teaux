@@ -269,10 +269,18 @@ img {
   right: calc(50% - 8rem);
 }
 
+.footer__copy{
+  display: block;
+  margin-top: .1rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 330px) {
+
   .container{
   margin-inline: 1rem;
 }
@@ -291,6 +299,10 @@ img {
 .home__subcircle{
   width: 206px; 
   height: 206px;
+}
+
+.footer__copy{
+  margin-top: 1rem;
 }
 }
 
